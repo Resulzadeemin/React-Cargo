@@ -66,7 +66,7 @@ function Navbar() {
                         <IoMdArrowDropdown className={style.icon} /></Link></li>
                 </Dropdown>
 
-                <li><Link className="ant-dropdown-link" to="/tariffs">Tariflər</Link></li>
+                <li><Link className="ant-dropdown-link" to="/tariffs" onClick={e => e.preventDefault()}>Tariflər</Link></li>
 
                 <Dropdown overlay={menu3} trigger={['click']}>
                     <li><Link to="#" className="ant-dropdown-link" onClick={e => e.preventDefault()}>Əlaqə
