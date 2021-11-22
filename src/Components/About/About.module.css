@@ -1,0 +1,95 @@
+.about h1{
+    width: 60%;
+    margin: 0 auto;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-color:purple ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+.speed h1,.trust h1,.client h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background: linear-gradient(to right,purple 50%, #304d88 100%);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    width: 220px;
+    margin:0 auto;
+}
+.text{
+    padding-top: 30px;
+}
+.text p{
+    width:55%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 767px){
+  .about h1{
+    width: 80%;
+    margin: 0 50px;
+    font-size: 30px;
+    clip-path: polygon(0 0, 65% 0, 89% 68%, 100% 100%, 0 100%, 0% 50%);
+  }
+ 
+  .about{
+      padding-top: 40px;
+      text-align: center;
+  }
+
+  .display{
+      display: block;
+      width: 70%;
+  }
+
+  .text p{
+    width:95%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .about{
+       transform: translateX(100px);
+    }
+    .about h1{ 
+        padding: 40px 40px;
+        font-size: 35px;
+       
+      }
+
+      .display{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+       
+    }
+     
+    .text p{
+        width:90%;
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}

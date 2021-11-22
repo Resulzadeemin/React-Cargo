@@ -1,0 +1,35 @@
+@media(max-width:768px){
+
+    .ant-carousel .slick-slide img{
+        width: 100% !important;
+        height: 400px;
+        object-fit: cover;  
+        margin: 0 auto;
+    }
+        
+}
+.ant-input{
+    font-size: 20px !important;
+}
+.ant-input-affix-wrapper > input.ant-input{
+    text-align:center;
+}
+.ant-spin-dot {
+    font-size: 70px !important;
+}
+.ant-btn-primary{
+    font-size: 20px!important;
+    background-color:purple !important ;
+    border: 0 !important;
+    outline: none !important;
+    color: #fff !important;
+    border-radius:3px 3px 0 0  !important;
+}
+.ant-input-affix-wrapper{
+    box-shadow: 0 0 0 !important;
+    border-color:gray !important ;
+}
+.ant-input{
+    box-shadow: 0 0 0 !important;
+    border-color:purple !important ;
+}

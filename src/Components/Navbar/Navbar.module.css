@@ -1,0 +1,100 @@
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+}
+.navbar2{
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar2 a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    color: rgb(83, 83, 83);
+}
+.form{
+    padding-top: 5px;
+}
+.login{
+    padding:0 20px;
+    margin: 30px;
+}
+.login a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 30px;
+    padding:15px 25px;
+    background-color:purple ;
+    transition: .5s;
+}
+.login a:hover{
+    background-color:rgb(105, 3, 105) ;
+    color: #fff;
+}
+.regs a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 30px;
+    padding:15px 25px;
+    background-color:orange ;
+    transition: .5s;
+}
+.regs a:hover{
+    background-color:rgb(187, 121, 0) ;
+    color: #fff;
+}
+
+
+
+@media(min-width:768px){
+
+    .navbar{
+        display: flex;
+        padding: 30px;
+    }
+    .navbar2{
+        display: flex;
+        padding-top: 0;
+    }
+    .navbar2 a{
+        padding-right: 30px;
+        font-size: 18px;
+    }
+    .form{
+        display: flex;
+        padding-top: 0;
+    }
+    .login{
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .navbar{
+        display: block;
+        text-align: center;
+        transform: translateX(40px);
+    }
+    .navbar2{
+        display: block;
+        line-height: 30px;
+        transform: translateX(40px);
+    }
+    .form{
+        display: block;
+        line-height: 50px;
+        transform: translateX(25px);
+      
+    }
+}

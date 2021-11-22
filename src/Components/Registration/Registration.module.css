@@ -1,0 +1,187 @@
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.head h1{
+    width: 60%;
+    margin: 0 auto;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-color:purple ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.regis{
+    text-align: center;
+    /* background-image: radial-gradient(circle, #f7f7f786 0%, #ffffff 100%); */
+}
+.regis h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 240, 240);
+}
+.form{
+    width: 90%; 
+    margin: 0 auto;
+}
+.name,.username,.email,.country,.number,.password,.passwordAgain,.btn{
+    padding-top: 30px;
+}
+.name input,.username input,.email input,.number input{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 80px;
+    outline: none;  
+    border: 0;
+    text-align: center;
+    border-bottom:2px solid gray;
+    transition: .5s;
+}
+.select{
+    color: gray;
+}
+.name input:hover,.username input:hover,.email input:hover,.number input:hover{
+    border-bottom: 2px solid #1890ff;
+}
+.number span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check{
+    padding-top: 20px;
+}
+.check input{
+    width: 16px;
+    height: 16px;
+}
+.check span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    /* color: rgb(241, 241, 241); */
+}
+.check input{
+    margin-right: 10px; 
+}
+.country select{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 300px;
+    outline: none;  
+    border: 0;
+    text-align: center;
+    border-bottom:2px solid gray;
+    font-size: 17px;
+    cursor:pointer;
+}
+.opt{
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+.name label,.username label,.email label,.country label,.number label,.password label,.passwordAgain label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: rgb(241, 241, 241); */
+}
+.input1,.input2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 80px;
+    outline: none;  
+    border: 0;
+    text-align: center;
+    border-bottom:2px solid gray;
+    text-align: center;
+    width: 410px;
+}
+.btn button{
+    padding: 10px 70px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .4s;
+}
+.btn button:hover{
+    background-color: rgb(146, 2, 146);
+}
+.answer{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 767px){
+     .head{
+         margin-top: 40px;
+     }
+
+    .head h1{
+        width: 87%;
+        margin: 0 30px;
+        font-size: 25px;
+        clip-path: polygon(0 0, 65% 0, 89% 68%, 100% 100%, 0 100%, 0% 50%);
+    }
+
+    .display{
+       display: block;
+      width: 100%;
+    }
+
+    .display input{
+        width: 100%;
+    }
+
+    .form{
+        width: 70%; 
+        margin: 0 auto;
+    }
+
+    .country  .select{
+        width: 100%;
+    }
+
+  .input1{
+      width: 100%;
+  }
+  .input2{
+    width: 100%;
+}
+
+.btn button{
+    padding: 10px 40px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .4s;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+       .head{
+           transform: translateX(60px);
+       }
+    .head h1{
+        font-size: 35px;
+        padding: 55px 30px;
+    }
+
+    .display{
+        display: flex;
+        flex-wrap: wrap;
+       width: 100%;
+     }
+}

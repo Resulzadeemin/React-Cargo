@@ -1,0 +1,88 @@
+.vac h1{
+    width: 60%;
+    margin: 0 auto;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-color:purple ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.text{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.text a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.text p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text article{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media (max-width: 767px){
+    .vac{
+        margin-top: 35px;
+    }
+    .vac h1{
+        width: 80%;
+        margin: 0 50px;
+        font-size: 30px;
+        clip-path: polygon(0 0, 65% 0, 89% 68%, 100% 100%, 0 100%, 0% 50%);
+    }
+    .text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .text a{
+        width: 90%;
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .vac{
+        width: 90%;
+        margin: 0 auto;
+        transform: translate(70px);
+    }
+    .vac h1{
+        font-size: 45px;
+        padding: 60px 35px;
+        
+    }
+    .text{
+        width: 90%;
+        transform: translate(100px);
+    }
+
+    .text a{
+        width: 70%;
+        font-size: 38px;
+    }
+    .text p{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text article{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+}

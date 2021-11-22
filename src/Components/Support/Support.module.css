@@ -1,0 +1,183 @@
+.support h1{
+    width: 60%;
+    margin: 0 auto;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-color:purple ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.head h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.head p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 60%;
+    background: linear-gradient(to right, #000000fb 0%, #ab29c2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.form{
+    /* text-align: center; */
+    width: 60%;
+    margin:0 auto ;
+    padding-top: 40px;
+}
+.name input,.username input,.email input{
+    font-size: 25px;
+    padding: 0px 15px;
+    outline: none;
+    border-color:purple ;
+    border: 0;
+    border: solid 1px purple;
+    border-radius: 3px;
+}
+.number span{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid purple;
+    padding:7px 5px;
+    border-right:none ;
+    margin-bottom: 10px;
+    border-color: purple;
+    font-size: 22px;
+    background-color:purple ;
+    color: #fff;
+    border-radius:3px 0 0 3px ;
+}
+.number input{
+    margin-right: 55px;
+    border-left: none;
+    font-size: 20px;
+    padding: 3.5px 13px;
+    border-color: purple;
+    outline: none;
+    border: 0;
+    border: 1px solid purple;
+}
+.name,.username,.email,.number,.file,.letter,.btn {
+    margin-top:20px ;
+}
+.file input{
+    color: rgb(90, 90, 90);
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 8px 30px;
+    outline: none;
+    white-space: nowrap;
+    --webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:purple ;
+}
+.file:hover::before {
+    border-color: black;
+  }
+.file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.letter textarea{
+    font-size: 20px;
+    padding:40px 43px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border-color:purple ;
+}
+.btn button{
+    padding: 10px 35px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .4s;
+}
+.btn button:hover{
+    background-color: rgb(146, 2, 146);
+}
+
+
+@media screen and (max-width: 767px){
+    .support{
+        padding-top: 35px;
+    }
+ 
+     .support h1{
+         width: 70%;
+         margin: 0 70px;
+         font-size: 30px;
+         clip-path: polygon(0 0, 65% 0, 89% 68%, 100% 100%, 0 100%, 0% 50%);
+     }
+
+     .head h2{
+        width: 90%;
+        font-size: 18px;
+        transform: translateX(10px);
+    }
+
+    .head p{
+        width: 90%;
+        transform: translateX(10px);
+    }
+
+    .form{
+        transform: translateX(-48px);
+    }
+
+    .name input,.username input,.email input{
+        padding: 0px 0px;
+    
+    }
+    
+    .number input{
+        padding: 3.5px 10px;
+    }
+
+  .file input{
+    padding: 8px 10px;
+  }
+
+  .letter textarea{
+     padding: 40px 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+   
+
+    .support{
+        padding-top: 35px;
+        transform: translateX(30px);
+    }
+ 
+     .support h1{
+        width: 60%;
+        padding: 30px 30px;
+        margin: 0 auto;
+        font-size: 45px
+     }
+
+}
