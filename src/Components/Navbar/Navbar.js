@@ -53,7 +53,7 @@ function Navbar() {
 
 
             <div className={style.logo}>
-                <Link to="/"><img src={logo} /></Link>
+                <Link to="/home"><img src={logo} /></Link>
             </div>
             <div className={style.navbar2}>
                 <Dropdown overlay={menu} trigger={['click']}>

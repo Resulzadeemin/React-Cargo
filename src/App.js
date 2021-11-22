@@ -61,7 +61,7 @@ function App() {
         <Route path="/vacancies">
           <Vacancies /> 
         </Route>
-        <Route exact path="/">
+        <Route exact path="/home">
           <Header />
           <Section1 />
           <Section2 />
