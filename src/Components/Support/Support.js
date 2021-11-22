@@ -70,7 +70,6 @@ function Support() {
                 </div>
                 <div className={style.username}>
                     <input
-                        required
                         placeholder="Soyad"
                         onChange={inputHandler2}
                         type="text"
@@ -112,6 +111,7 @@ function Support() {
                 </div>
                 <div className={style.letter}>
                     <textarea
+                        required
                         onChange={inputHandler2}
                         placeholder="Məktubunuz"
                         type="text"

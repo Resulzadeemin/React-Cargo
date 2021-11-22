@@ -10,13 +10,13 @@ function Navbar() {
     const menu = (
         <Menu>
             <Menu.Item key="0">
-                <Link to="/about">Haqqımızda</Link>
+                <Link className={style.navfont} to="/about">Haqqımızda</Link>
             </Menu.Item>
             <Menu.Item key="1">
-                <Link to="/news">Xəbərlər</Link>
+                <Link className={style.navfont} to="/news">Xəbərlər</Link>
             </Menu.Item>
             <Menu.Item key="2">
-                <Link to="/vacancies">Vakansiyalar</Link>
+                <Link className={style.navfont} to="/vacancies">Vakansiyalar</Link>
             </Menu.Item>
         </Menu>
     );
@@ -24,16 +24,16 @@ function Navbar() {
     const menu2 = (
         <Menu>
             <Menu.Item key="0">
-                <Link to="/suggestions">Tekliflerimiz</Link>
+                <Link className={style.navfont} to="/suggestions">Tekliflerimiz</Link>
             </Menu.Item>
             <Menu.Item key="1">
-                <Link to="/corporative">Koporativ</Link>
+                <Link className={style.navfont} to="/corporative">Koporativ</Link>
             </Menu.Item>
             <Menu.Item key="2">
-                <Link to="/shops">Mağazalar</Link>
+                <Link className={style.navfont} to="/shops">Mağazalar</Link>
             </Menu.Item>
             <Menu.Item key="3">
-                <Link to="/regions">Məntəqələr</Link>
+                <Link className={style.navfont} to="/regions">Məntəqələr</Link>
             </Menu.Item>
         </Menu>
     );
@@ -41,17 +41,17 @@ function Navbar() {
     const menu3 = (
         <Menu>
             <Menu.Item key="0">
-                <Link to="/faq">Sual-Cavab</Link>
+                <Link className={style.navfont} to="/faq">Sual-Cavab</Link>
             </Menu.Item>
             <Menu.Item key="1">
-                <Link to="/support">Dəstək</Link>
+                <Link className={style.navfont} to="/support">Dəstək</Link>
             </Menu.Item>
         </Menu>
     );
     return (
         <div className={style.navbar}>
-        
-            
+
+
             <div className={style.logo}>
                 <Link to="/"><img src={logo} /></Link>
             </div>
@@ -66,7 +66,7 @@ function Navbar() {
                         <IoMdArrowDropdown className={style.icon} /></Link></li>
                 </Dropdown>
 
-                <li><Link to="/tariffs">Tariflər</Link></li>
+                <li><Link className="ant-dropdown-link" to="/tariffs">Tariflər</Link></li>
 
                 <Dropdown overlay={menu3} trigger={['click']}>
                     <li><Link to="#" className="ant-dropdown-link" onClick={e => e.preventDefault()}>Əlaqə
@@ -83,7 +83,7 @@ function Navbar() {
                     <Link to="/registration">QEYDİYYAT</Link>
                 </div>
             </div>
-            
+
         </div>
     )
 }

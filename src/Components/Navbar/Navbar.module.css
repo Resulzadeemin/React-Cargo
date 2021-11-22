@@ -53,8 +53,12 @@
     background-color:rgb(187, 121, 0) ;
     color: #fff;
 }
-
-
+.navfont{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.antdropdownlink{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 @media(min-width:768px){
 
