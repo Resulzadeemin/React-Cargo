@@ -22,6 +22,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
   	text-decoration: none;
 	list-style: none;
+	line-height: 1.7;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, main, menu, nav, section {
